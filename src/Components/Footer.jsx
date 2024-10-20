@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-2xl font-bold">Have a Question?</h2>
-            <form className="mt-2" onsubmit={handleSubmit}>
+            <form className="mt-2" onSubmit={handleSubmit}>
               <input type="text" onChange={handleChange} placeholder="Your Name" className="w-full p-2 mb-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required />
               <input type="email" onChange={handleChange} placeholder="Your Email" className="w-full p-2 mb-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required />
               <textarea  placeholder="Your Query" className="w-full p-2 mb-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required></textarea>
