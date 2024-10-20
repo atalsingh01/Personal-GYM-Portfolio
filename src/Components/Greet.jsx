@@ -1,5 +1,6 @@
 import React from "react";
 import greetLogo from "../../src/assets/greetLogo.jpg";
+import { Link } from "react-router-dom";
 
 const Greet = () => {
   return (
@@ -25,7 +26,7 @@ const Greet = () => {
           Personal Trainer
         </h2>
         <div className="mt-10 ">
-          <button className=" text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4">courses</button>
+          <Link to="/courses" className=" text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4">courses</Link>
         </div>
       </div>
     </div>

@@ -40,6 +40,8 @@ function App() {
           <Route exact path="/Services" element={<CardTab />} />
           <Route exact path="/Services/:type" element={<WorkoutDetails />} />
           <Route exact path="/contact us" element={<ContactUs />} />
+          
+          <Route exact path="/courses" element={<CardTab />} />
         </Routes>
         <Footer />
       </Router>
